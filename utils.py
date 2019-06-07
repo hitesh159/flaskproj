@@ -5,7 +5,7 @@ import requests
 import json
 
 from pymongo import MongoClient
-client=MongoClient("mongodb+srv://hitesh:lioneaters@cluster0-ktlow.mongodb.net/test?retryWrites=true&w=majority")
+client=MongoClient("mongodb+srv://hitesh:<your_password>@cluster0-ktlow.mongodb.net/test?retryWrites=true&w=majority")
 
 db=client.get_database('user_preferences')
 
@@ -14,7 +14,7 @@ import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
 PROJECT_ID = "project-1-cd204"
 
-MY_API_KEY="AIzaSyBQ27fB6HLMOlQLeNqsl2GQh_yIH1T8igs"
+MY_API_KEY="MYAPIKEY"
 
 from gnewsclient import gnewsclient
 
