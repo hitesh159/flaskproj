@@ -7,7 +7,10 @@ and talk to the bot
 
 
 You can make queries like
-Show me photos of taj majak
+Show me photos of taj mahal
+
+
 Show me information of los angles
+
 Get my preferences
 
